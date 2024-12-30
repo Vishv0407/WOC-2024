@@ -1,11 +1,15 @@
-import React from 'react'
+// src/pages/HomePage.jsx
+import React from 'react';
+import Contact from '../components/Contact/Contact';
+// Import other components
 
 const HomePage = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <main>
+      {/* Other sections */}
+      <Contact />
+    </main>
+  );
+};
 
-export default HomePage
+export default HomePage;
