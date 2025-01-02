@@ -1,7 +1,6 @@
-// src/components/Contact/Contact.jsx
-import React from 'react';
+// import React from 'react';
+import AnimatedIcons from '../SocialMediaIconsComponent/AnimatedIcons';  // Reusing AnimatedIcons instead of SocialMediaIcons
 import ContactUs from '../ContactUs/ContactUs';
-import SocialMediaIcons from '../SocialMediaIcons/SocialMediaIcons';
 import './Contact.css';
 
 const Contact = () => {
@@ -15,9 +14,9 @@ const Contact = () => {
             <ContactUs />
           </div>
 
-          {/* Right side - Social Media Icons */}
+          {/* Right side - Social Media Icons (using AnimatedIcons now) */}
           <div className="social-icons-container">
-            <SocialMediaIcons />
+            <AnimatedIcons />
           </div>
         </div>
       </div>
