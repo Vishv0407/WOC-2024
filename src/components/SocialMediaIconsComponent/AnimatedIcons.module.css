@@ -13,6 +13,8 @@
     border-radius: 50%;
     width: 65px;
     height: 65px;
+    top: 4202px;
+    left: 1002px;
 }
 
 .orbit {
@@ -35,7 +37,7 @@
 }
 
 #thirdOrbit {
-    width: 683px;
+    width: 677px;
     height: 683px;
 }
 
